@@ -298,7 +298,7 @@ var controller = (function(budgetCtrl, UICtrl){
     var ctrlAddItem = function() {
         var input, newItem;
             // 1. Достаем инпут
-            //рeзультат метода получаем инпут и это метод ПЕРЕМЕННАЯ
+            //рeзультат метода получаем инпут и это метод var
 
             var input = UICtrl.getinput();
             
